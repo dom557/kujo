@@ -1,0 +1,131 @@
+/* Global styles */
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #1DB954;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 40px; /* Adjust the size as needed */
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px; /* Add some spacing */
+  }
+  
+  h1 {
+    color: #FFFFFF;
+    font-size: 32px;
+    margin: 0;
+  }
+  
+ /* Navigation styles */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+  }
+  
+  
+  /* Main content styles */
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #D7C662;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  .playlist-container {
+    text-align: center;
+  }
+  
+  /* Birthday congratulations section styles */
+  #birthday-congratulations {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  #message {
+    background-color: #F6E782;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  #message p {
+    margin-bottom: 10px;
+    color: #000000;
+    font-size: 18px;
+  }
+  
+  #message p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  #message p:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+  }
+  
